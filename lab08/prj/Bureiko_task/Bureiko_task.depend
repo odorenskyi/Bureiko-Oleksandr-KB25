@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1773938339 source:c:\bmtp-lab8v17-bureiko\bureiko-oleksandr-kb25\lab08\prj\bureiko_task\main.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cmath>
+	<sstream>
+	<windows.h>
+	"../Modules_Bureiko.h"
+
+1773933801 c:\bmtp-lab8v17-bureiko\bureiko-oleksandr-kb25\lab08\prj\modules_bureiko.h
+
