@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1773935195 source:c:\bmtp-lab8v17-bureiko\bureiko-oleksandr-kb25\lab08\prj\testdriver\main.cpp
+	<iostream>
+	<cmath>
+	<windows.h>
+	"../Modules_Bureiko.h"
+
+1773933801 c:\bmtp-lab8v17-bureiko\bureiko-oleksandr-kb25\lab08\prj\modules_bureiko.h
+
