@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1779220090 source:c:\users\Олександр\desktop\lab11\prj_4_bureiko\main.cpp
+	<iostream>
+	<windows.h>
+	"struct_type_project_4.h"
+	"Modules_Bureiko.h"
+	"Modules_Rudenko.h"
+	"Modules_Primak.h"
+
+1778604333 c:\users\Олександр\desktop\lab11\prj_4_bureiko\struct_type_project_4.h
+
+1779219096 c:\users\Олександр\desktop\lab11\prj_4_bureiko\modules_bureiko.h
+	"struct_type_project_4.h"
+
+1779219062 c:\users\Олександр\desktop\lab11\prj_4_bureiko\modules_rudenko.h
+	"struct_type_project_4.h"
+
+1779219014 c:\users\Олександр\desktop\lab11\prj_4_bureiko\modules_primak.h
+	"struct_type_project_4.h"
+
+1779222143 source:c:\bmtp\bureiko-oleksandr-kb25\lab11\prj\prj_4_bureiko\main.cpp
+	<iostream>
+	<windows.h>
+	"struct_type_project_4.h"
+	"Modules_Bureiko.h"
+
+1778604333 c:\bmtp\bureiko-oleksandr-kb25\lab11\prj\prj_4_bureiko\struct_type_project_4.h
+
+1779219096 c:\bmtp\bureiko-oleksandr-kb25\lab11\prj\prj_4_bureiko\modules_bureiko.h
+	"struct_type_project_4.h"
+
