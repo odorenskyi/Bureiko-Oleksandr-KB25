@@ -1,0 +1,5 @@
+=== Протокол тестування ClassLab12_Bureiko ===
+Test Case ID 1 -> Action: initialize with 2 -> Expected: 24 -> Result: 24 [PASSED]
+Test Case ID 2 -> Action: initialize with 5 -> Expected: 150 -> Result: 150 [PASSED]
+Test Case ID 3 -> Action: initialize with 0 -> Expected: 0 -> Result: 0 [PASSED]
+Test Case ID 4 -> Action: initialize with -3 -> Expected: 0 -> Result: 0 [PASSED]

@@ -1,13 +1,14 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <windows.h>
 #include "../../../lab08/prj/Modules_Bureiko.h"
 
 using namespace std;
 
 void run_unit_tests() {
-    ifstream test_file("../../TestSuite/test_cube.txt");
-    ofstream log_file("TestResults.txt");
+    ifstream test_file("C:\\BMTP\\Bureiko-Oleksandr-KB25\\lab12\\TestSuite\\test_cube.txt");
+    ofstream log_file("C:\\BMTP\\Bureiko-Oleksandr-KB25\\lab12\\TestSuite\\TestResults.txt");
 
     if (!test_file.is_open()) {
         log_file << "Помилка: не вдалося відкрити файл з тестами test_cube.txt" << endl;
@@ -41,9 +42,11 @@ void run_unit_tests() {
 }
 
 int main() {
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
     string current_file = __FILE__;
 
-    if (current_file.find("\\Lab12\\prj") == string::npos && current_file.find("/Lab12/prj") == string::npos) {
+    if (current_file.find("\\lab12\\prj") == string::npos && current_file.find("/lab12/prj") == string::npos) {
         for (int i = 0; i < 100; i++) {
             cout << '\a';
         }
@@ -57,5 +60,6 @@ int main() {
         run_unit_tests();
     }
 
+    system("pause");
     return 0;
 }
