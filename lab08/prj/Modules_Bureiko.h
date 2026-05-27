@@ -24,4 +24,25 @@ void append_10_2(const char* input_filename);
 // Задача 10.3: Дозапис результатів обчислення та двійкового коду
 void append_10_3(const char* output_filename, double x, double y, double z, unsigned int b);
 
+// ЛР№12
+// Клас для представлення Кубика Рубіка
+class ClassLab12_Bureiko {
+private:
+    // Внутрішнє представлення інкапсулюється (доступ лише через методи)
+    double edge_length;
+
+public:
+    // Конструктор з параметром за замовчуванням для ініціалізації
+    ClassLab12_Bureiko(double a = 0.0);
+
+    // Метод для зміни значення атрибута (забезпечує валідацію вхідних даних)
+    bool set_edge(double a);
+
+    // Метод для надання значення свого атрибута
+    double get_edge();
+
+    // Метод для надання значення площі своєї поверхні
+    double calculate_surface_area();
+};
+
 #endif // MODULES_BUREIKO_H
